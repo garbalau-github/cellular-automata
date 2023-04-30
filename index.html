@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cellular Automaton</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <h1 class="title">Cellular Automaton</h1>
+        <div class="canvas-with-controls">
+            <canvas id="app"></canvas>
+            <div>
+                <div class="controls">
+                    <button id="next">Next</button>
+                    <button id="autoplay">Start</button>
+                    <div class="control">
+                        <label for="dead">Dead</label>
+                        <input
+                            type="radio"
+                            id="dead"
+                            name="state"
+                            value="dead"
+                        />
+                    </div>
+                    <div class="control">
+                        <label for="alive">Alive</label>
+                        <input
+                            type="radio"
+                            id="alive"
+                            name="state"
+                            value="alive"
+                            checked
+                        />
+                    </div>
+                </div>
+                <div class="rules">
+                    <p>
+                        The Game of Life is not your typical computer game. It
+                        is a cellular automaton, and was invented by Cambridge
+                        mathematician John Conway.
+                    </p>
+                    <p>
+                        This game became widely known when it was mentioned in
+                        an article published by Scientific American in 1970. It
+                        consists of a grid of cells which, based on a few
+                        mathematical rules, can live, die or multiply. Depending
+                        on the initial conditions, the cells form various
+                        patterns throughout the course of the game.
+                    </p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <script src="src/index.js"></script>
+    </body>
+</html>
