@@ -1,7 +1,6 @@
-### Cellular Autoomaton
+### Cellular Automaton
 
-Cellular Automaton consists of a grid of cells which, based on a few mathematical rules, can live, die or multiply. Depending on the initial 
-conditions, the cells form various complex patterns.
+Cells which based on a few mathematical rules, can live, die or multiply. Depending on the initial conditions, the cells form various complex patterns. Implemented with *TypeScript*
 
 ### UI
 
